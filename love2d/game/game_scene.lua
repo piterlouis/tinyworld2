@@ -66,7 +66,7 @@ local planetArmor = 0
 local planetArmorCooldown = 0
 local planetArmorBackColor = 0
 
-local background = love.graphics.newImage("images/bg_starfield.png")
+local background = love.graphics.newImage("game/images/bg_starfield.png")
 background:setFilter("linear", "nearest")
 local bg_x, bg_y = 0, 0
 local bg_offset = 0

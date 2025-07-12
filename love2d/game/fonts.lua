@@ -9,14 +9,14 @@
 
 local M = {}
 
-M.orbitron20 = love.graphics.newFont('fonts/Orbitron-Medium.ttf', 20)
+M.orbitron20 = love.graphics.newFont('game/fonts/Orbitron-Medium.ttf', 20)
 
-M.pixelify16 = love.graphics.newFont('fonts/PixelifySans-Regular.ttf', 16, 'mono')
+M.pixelify16 = love.graphics.newFont('game/fonts/PixelifySans-Regular.ttf', 16, 'mono')
 M.pixelify16:setFilter('nearest', 'nearest')
 
-M.pixelify25 = love.graphics.newFont('fonts/Jersey25-Regular.ttf', 25, 'mono')
+M.pixelify25 = love.graphics.newFont('game/fonts/Jersey25-Regular.ttf', 25, 'mono')
 M.pixelify25:setFilter('nearest', 'nearest')
 
-M.pixelify50 = love.graphics.newFont('fonts/Jersey25-Regular.ttf', 50, 'mono')
+M.pixelify50 = love.graphics.newFont('game/fonts/Jersey25-Regular.ttf', 50, 'mono')
 
 return M

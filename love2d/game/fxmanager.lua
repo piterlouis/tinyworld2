@@ -8,11 +8,11 @@
 --
 
 local fxManager = {
-  changeFx = love.audio.newSource("fx/Change.mp3", "static"),
-  explosionFx = love.audio.newSource("fx/Explosion.mp3", "static"),
-  pingFx = love.audio.newSource("fx/Ping.mp3", "static"),
-  shieldFx = love.audio.newSource("fx/Shield.mp3", "static"),
-  shootFx = love.audio.newSource("fx/Shoot.mp3", "static"),
+  changeFx = love.audio.newSource("game/fx/Change.mp3", "static"),
+  explosionFx = love.audio.newSource("game/fx/Explosion.mp3", "static"),
+  pingFx = love.audio.newSource("game/fx/Ping.mp3", "static"),
+  shieldFx = love.audio.newSource("game/fx/Shield.mp3", "static"),
+  shootFx = love.audio.newSource("game/fx/Shoot.mp3", "static"),
 }
 
 love.audio.setVolume(0.15)

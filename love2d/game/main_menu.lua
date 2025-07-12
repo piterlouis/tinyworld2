@@ -22,7 +22,7 @@ local MainMenu = {
   option2 = love.graphics.newText(font, "How to play"),
   madein1 = love.graphics.newText(smallFont, "Made in 48 hours"),
   madein2 = love.graphics.newText(smallFont, "for Ludum Dare #23"),
-  pingFx = love.audio.newSource("fx/Ping.mp3", "static"),
+  pingFx = love.audio.newSource("game/fx/Ping.mp3", "static"),
   selectedOption = 1,
 }
 
